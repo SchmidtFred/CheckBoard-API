@@ -1,0 +1,1674 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Fred",
+      "lastName": "Schmidt",
+      "email": "sufferingfromego@beta.com",
+      "password": "beta"
+    },
+    {
+      "firstName": "Bob",
+      "lastName": "Board",
+      "email": "bobboard@boardbob.com",
+      "password": "bob",
+      "id": 2
+    },
+    {
+      "firstName": "Sora",
+      "lastName": "Chung",
+      "email": "sora@chung.com",
+      "password": "password",
+      "id": 3
+    },
+    {
+      "firstName": "Hunter",
+      "lastName": "Pruett",
+      "email": "hunter@pruett.com",
+      "password": "hunter",
+      "id": 4
+    },
+    {
+      "firstName": "Jim",
+      "lastName": "Jam",
+      "email": "jim@jam.com",
+      "password": "jim",
+      "id": 5
+    }
+  ],
+  "likes": [],
+  "listTemplates": [
+    {
+      "name": "Test Board",
+      "description": "This Is My Test",
+      "revealStart": "",
+      "gridWidth": 2,
+      "gridHeight": 2,
+      "userId": 1,
+      "public": false,
+      "finished": false,
+      "id": 1
+    },
+    {
+      "name": "Sora's Imagination",
+      "description": "Steps to give Sora an imagination.",
+      "revealStart": "",
+      "gridWidth": 4,
+      "gridHeight": 3,
+      "userId": 1,
+      "public": false,
+      "finished": true,
+      "id": 3
+    },
+    {
+      "name": "Band Instruments To Try Out",
+      "description": "Try out all these awesome instruments wooooo",
+      "revealStart": "",
+      "gridWidth": 5,
+      "gridHeight": 4,
+      "userId": 1,
+      "public": true,
+      "finished": true,
+      "id": 4
+    },
+    {
+      "name": "Bobs Board",
+      "description": "Board By Bob ",
+      "revealStart": "",
+      "gridWidth": 4,
+      "gridHeight": 2,
+      "userId": 2,
+      "public": true,
+      "finished": true,
+      "id": 5
+    },
+    {
+      "name": "Hot Sauces",
+      "description": "Sauces I Want To Try Before I Die",
+      "revealStart": "",
+      "gridWidth": 6,
+      "gridHeight": 6,
+      "userId": 3,
+      "public": true,
+      "finished": true,
+      "id": 6
+    },
+    {
+      "name": "Wani Kani Reviews",
+      "description": "How many reviews I do every 20 minutes to catch back up",
+      "revealStart": "",
+      "gridWidth": 7,
+      "gridHeight": 7,
+      "userId": 1,
+      "public": false,
+      "finished": true,
+      "id": 7
+    },
+    {
+      "name": "Words That Start With C",
+      "description": "Cool",
+      "revealStart": "",
+      "gridWidth": 3,
+      "gridHeight": 4,
+      "userId": 2,
+      "public": true,
+      "finished": true,
+      "id": 8
+    },
+    {
+      "name": "Things To Blame Me For",
+      "description": "Itemized list of things I can be blamed for",
+      "revealStart": "",
+      "gridWidth": 3,
+      "gridHeight": 4,
+      "userId": 4,
+      "public": true,
+      "finished": true,
+      "id": 9
+    },
+    {
+      "name": "Praise Joe",
+      "description": "Ways to praise Joe today",
+      "revealStart": "",
+      "gridWidth": 3,
+      "gridHeight": 2,
+      "userId": 1,
+      "public": false,
+      "finished": true,
+      "id": 10
+    }
+  ],
+  "boardSquareTemplates": [
+    {
+      "listTemplateId": 1,
+      "text": "Hopefully",
+      "startRevealed": true,
+      "internalTempId": 1,
+      "id": 1
+    },
+    {
+      "listTemplateId": 1,
+      "text": "This",
+      "startRevealed": false,
+      "internalTempId": 2,
+      "id": 2
+    },
+    {
+      "listTemplateId": 1,
+      "text": "Will",
+      "startRevealed": false,
+      "internalTempId": 3,
+      "id": 3
+    },
+    {
+      "listTemplateId": 1,
+      "text": "Work",
+      "startRevealed": false,
+      "internalTempId": 4,
+      "id": 4
+    },
+    {
+      "listTemplateId": 4,
+      "text": "trumpet",
+      "startRevealed": false,
+      "internalTempId": 1,
+      "id": 14
+    },
+    {
+      "listTemplateId": 4,
+      "text": "xylophone",
+      "startRevealed": false,
+      "internalTempId": 2,
+      "id": 15
+    },
+    {
+      "listTemplateId": 4,
+      "text": "trombone",
+      "startRevealed": false,
+      "internalTempId": 3,
+      "id": 16
+    },
+    {
+      "listTemplateId": 4,
+      "text": "tuba",
+      "startRevealed": false,
+      "internalTempId": 4,
+      "id": 17
+    },
+    {
+      "listTemplateId": 4,
+      "text": "horn",
+      "startRevealed": true,
+      "internalTempId": 5,
+      "id": 18
+    },
+    {
+      "listTemplateId": 4,
+      "text": "baritone",
+      "startRevealed": false,
+      "internalTempId": 6,
+      "id": 19
+    },
+    {
+      "listTemplateId": 4,
+      "text": "clarinet",
+      "startRevealed": true,
+      "internalTempId": 7,
+      "id": 20
+    },
+    {
+      "listTemplateId": 4,
+      "text": "flute",
+      "startRevealed": false,
+      "internalTempId": 8,
+      "id": 21
+    },
+    {
+      "listTemplateId": 4,
+      "text": "saxophone",
+      "startRevealed": false,
+      "internalTempId": 9,
+      "id": 22
+    },
+    {
+      "listTemplateId": 4,
+      "text": "bass clarinet",
+      "startRevealed": false,
+      "internalTempId": 10,
+      "id": 23
+    },
+    {
+      "listTemplateId": 4,
+      "text": "piano",
+      "startRevealed": false,
+      "internalTempId": 11,
+      "id": 24
+    },
+    {
+      "listTemplateId": 4,
+      "text": "snare dru",
+      "startRevealed": false,
+      "internalTempId": 12,
+      "id": 25
+    },
+    {
+      "listTemplateId": 4,
+      "text": "violin",
+      "startRevealed": false,
+      "internalTempId": 13,
+      "id": 26
+    },
+    {
+      "listTemplateId": 4,
+      "text": "cell",
+      "startRevealed": false,
+      "internalTempId": 14,
+      "id": 27
+    },
+    {
+      "listTemplateId": 4,
+      "text": "bass",
+      "startRevealed": false,
+      "internalTempId": 15,
+      "id": 28
+    },
+    {
+      "listTemplateId": 3,
+      "text": "It's Hopeless",
+      "startRevealed": false,
+      "internalTempId": 1,
+      "id": 43
+    },
+    {
+      "listTemplateId": 4,
+      "text": "Guitar",
+      "startRevealed": false,
+      "internalTempId": 16,
+      "id": 44
+    },
+    {
+      "listTemplateId": 4,
+      "text": "Tabla",
+      "startRevealed": false,
+      "internalTempId": 17,
+      "id": 45
+    },
+    {
+      "listTemplateId": 4,
+      "text": "Kazoo",
+      "startRevealed": false,
+      "internalTempId": 18,
+      "id": 46
+    },
+    {
+      "listTemplateId": 4,
+      "text": "Recorder",
+      "startRevealed": false,
+      "internalTempId": 19,
+      "id": 47
+    },
+    {
+      "listTemplateId": 4,
+      "text": "Viola",
+      "startRevealed": false,
+      "internalTempId": 20,
+      "id": 48
+    },
+    {
+      "listTemplateId": 5,
+      "text": "Boarders",
+      "startRevealed": false,
+      "internalTempId": 1,
+      "id": 49
+    },
+    {
+      "listTemplateId": 5,
+      "text": "Bob",
+      "startRevealed": false,
+      "internalTempId": 2,
+      "id": 50
+    },
+    {
+      "listTemplateId": 5,
+      "text": "Brings",
+      "startRevealed": false,
+      "internalTempId": 3,
+      "id": 51
+    },
+    {
+      "listTemplateId": 5,
+      "text": "Boolean",
+      "startRevealed": false,
+      "internalTempId": 4,
+      "id": 52
+    },
+    {
+      "listTemplateId": 5,
+      "text": "Boop",
+      "startRevealed": true,
+      "internalTempId": 5,
+      "id": 53
+    },
+    {
+      "listTemplateId": 5,
+      "text": "Bill",
+      "startRevealed": true,
+      "internalTempId": 6,
+      "id": 54
+    },
+    {
+      "listTemplateId": 5,
+      "text": "Bibble",
+      "startRevealed": false,
+      "internalTempId": 7,
+      "id": 55
+    },
+    {
+      "listTemplateId": 5,
+      "text": "Beeble",
+      "startRevealed": false,
+      "internalTempId": 8,
+      "id": 56
+    },
+    {
+      "listTemplateId": 3,
+      "text": "Renaming Pet Journal",
+      "startRevealed": false,
+      "internalTempId": 2,
+      "id": 57
+    },
+    {
+      "listTemplateId": 3,
+      "text": "Pretend to be a Pirate",
+      "startRevealed": false,
+      "internalTempId": 3,
+      "id": 58
+    },
+    {
+      "listTemplateId": 3,
+      "text": "Read a book",
+      "startRevealed": true,
+      "internalTempId": 4,
+      "id": 59
+    },
+    {
+      "listTemplateId": 3,
+      "text": "Create an imaginary backstory",
+      "startRevealed": false,
+      "internalTempId": 5,
+      "id": 60
+    },
+    {
+      "listTemplateId": 3,
+      "text": "Eat imaginebars",
+      "startRevealed": false,
+      "internalTempId": 6,
+      "id": 61
+    },
+    {
+      "listTemplateId": 6,
+      "text": "Keith's Hot Sauce",
+      "startRevealed": false,
+      "internalTempId": 1,
+      "id": 62
+    },
+    {
+      "listTemplateId": 6,
+      "text": "The Last Dab: Apollo",
+      "startRevealed": false,
+      "internalTempId": 2,
+      "id": 63
+    },
+    {
+      "listTemplateId": 6,
+      "text": "The Last Dab - Pepper X Edition",
+      "startRevealed": false,
+      "internalTempId": 3,
+      "id": 64
+    },
+    {
+      "listTemplateId": 6,
+      "text": "Evolution Hot Sauce",
+      "startRevealed": false,
+      "internalTempId": 4,
+      "id": 65
+    },
+    {
+      "listTemplateId": 6,
+      "text": "Kranked",
+      "startRevealed": false,
+      "internalTempId": 5,
+      "id": 66
+    },
+    {
+      "listTemplateId": 6,
+      "text": "Scorpion Disco Hot Sauce",
+      "startRevealed": false,
+      "internalTempId": 6,
+      "id": 67
+    },
+    {
+      "listTemplateId": 6,
+      "text": "Widow Maker",
+      "startRevealed": false,
+      "internalTempId": 7,
+      "id": 68
+    },
+    {
+      "listTemplateId": 6,
+      "text": "Extra Mean Green ",
+      "startRevealed": false,
+      "internalTempId": 8,
+      "id": 69
+    },
+    {
+      "listTemplateId": 6,
+      "text": "Pierdealmas",
+      "startRevealed": false,
+      "internalTempId": 9,
+      "id": 70
+    },
+    {
+      "listTemplateId": 6,
+      "text": "Ketchup",
+      "startRevealed": false,
+      "internalTempId": 10,
+      "id": 71
+    },
+    {
+      "listTemplateId": 6,
+      "text": "Chiptole eXpress Hot Sauce",
+      "startRevealed": false,
+      "internalTempId": 11,
+      "id": 72
+    },
+    {
+      "listTemplateId": 6,
+      "text": "Taco Bell Fire Sauce",
+      "startRevealed": true,
+      "internalTempId": 12,
+      "id": 73
+    },
+    {
+      "listTemplateId": 6,
+      "text": "Ghost Pepper Mash",
+      "startRevealed": false,
+      "internalTempId": 13,
+      "id": 74
+    },
+    {
+      "listTemplateId": 6,
+      "text": "Burn After Eating",
+      "startRevealed": false,
+      "internalTempId": 14,
+      "id": 75
+    },
+    {
+      "listTemplateId": 6,
+      "text": "Honey Badger Hot Sauce",
+      "startRevealed": false,
+      "internalTempId": 15,
+      "id": 76
+    },
+    {
+      "listTemplateId": 6,
+      "text": "Yuzu Heaven Hot Sauce",
+      "startRevealed": false,
+      "internalTempId": 16,
+      "id": 77
+    },
+    {
+      "listTemplateId": 6,
+      "text": "Maui No Ka Oi ",
+      "startRevealed": false,
+      "internalTempId": 17,
+      "id": 78
+    },
+    {
+      "listTemplateId": 6,
+      "text": "Blacck label Special Reserve",
+      "startRevealed": false,
+      "internalTempId": 18,
+      "id": 79
+    },
+    {
+      "listTemplateId": 6,
+      "text": "Pierdealmas",
+      "startRevealed": false,
+      "internalTempId": 19,
+      "id": 80
+    },
+    {
+      "listTemplateId": 6,
+      "text": "Stargazer Hot",
+      "startRevealed": false,
+      "internalTempId": 20,
+      "id": 81
+    },
+    {
+      "listTemplateId": 6,
+      "text": "Zombie Apocalypse",
+      "startRevealed": false,
+      "internalTempId": 21,
+      "id": 82
+    },
+    {
+      "listTemplateId": 6,
+      "text": "Assam Hot Sauce",
+      "startRevealed": false,
+      "internalTempId": 22,
+      "id": 83
+    },
+    {
+      "listTemplateId": 6,
+      "text": "Bourbon habanero Ghost",
+      "startRevealed": false,
+      "internalTempId": 23,
+      "id": 84
+    },
+    {
+      "listTemplateId": 6,
+      "text": "Love Burns Hot Sauce",
+      "startRevealed": false,
+      "internalTempId": 24,
+      "id": 85
+    },
+    {
+      "listTemplateId": 6,
+      "text": "Los Calientes",
+      "startRevealed": false,
+      "internalTempId": 25,
+      "id": 86
+    },
+    {
+      "listTemplateId": 6,
+      "text": "Dustin Poirier's Louisiana Style",
+      "startRevealed": false,
+      "internalTempId": 26,
+      "id": 87
+    },
+    {
+      "listTemplateId": 6,
+      "text": "Nugget Honey",
+      "startRevealed": false,
+      "internalTempId": 27,
+      "id": 88
+    },
+    {
+      "listTemplateId": 6,
+      "text": ".718 Host Sauce",
+      "startRevealed": false,
+      "internalTempId": 28,
+      "id": 89
+    },
+    {
+      "listTemplateId": 6,
+      "text": "The Original Goat",
+      "startRevealed": false,
+      "internalTempId": 29,
+      "id": 90
+    },
+    {
+      "listTemplateId": 6,
+      "text": "Truffle Fire",
+      "startRevealed": false,
+      "internalTempId": 30,
+      "id": 91
+    },
+    {
+      "listTemplateId": 6,
+      "text": "Tomasa Hot Sauce",
+      "startRevealed": false,
+      "internalTempId": 31,
+      "id": 92
+    },
+    {
+      "listTemplateId": 6,
+      "text": "Frank's Red Hot",
+      "startRevealed": false,
+      "internalTempId": 32,
+      "id": 93
+    },
+    {
+      "listTemplateId": 6,
+      "text": "Jala Pepa Mild",
+      "startRevealed": false,
+      "internalTempId": 33,
+      "id": 94
+    },
+    {
+      "listTemplateId": 6,
+      "text": "Keith's Taco Sauce",
+      "startRevealed": false,
+      "internalTempId": 34,
+      "id": 95
+    },
+    {
+      "listTemplateId": 6,
+      "text": "Dill Pickle Serrano",
+      "startRevealed": false,
+      "internalTempId": 35,
+      "id": 96
+    },
+    {
+      "listTemplateId": 6,
+      "text": "Keith's Chicken Sauce",
+      "startRevealed": false,
+      "internalTempId": 36,
+      "id": 97
+    },
+    {
+      "listTemplateId": 7,
+      "text": "5",
+      "startRevealed": false,
+      "internalTempId": 1,
+      "id": 98
+    },
+    {
+      "listTemplateId": 7,
+      "text": "10",
+      "startRevealed": false,
+      "internalTempId": 2,
+      "id": 99
+    },
+    {
+      "listTemplateId": 7,
+      "text": "8",
+      "startRevealed": false,
+      "internalTempId": 3,
+      "id": 100
+    },
+    {
+      "listTemplateId": 7,
+      "text": "42",
+      "startRevealed": false,
+      "internalTempId": 4,
+      "id": 101
+    },
+    {
+      "listTemplateId": 7,
+      "text": "13",
+      "startRevealed": false,
+      "internalTempId": 5,
+      "id": 102
+    },
+    {
+      "listTemplateId": 7,
+      "text": "38",
+      "startRevealed": false,
+      "internalTempId": 6,
+      "id": 103
+    },
+    {
+      "listTemplateId": 7,
+      "text": "4",
+      "startRevealed": false,
+      "internalTempId": 7,
+      "id": 104
+    },
+    {
+      "listTemplateId": 7,
+      "text": "29",
+      "startRevealed": false,
+      "internalTempId": 8,
+      "id": 105
+    },
+    {
+      "listTemplateId": 7,
+      "text": "27",
+      "startRevealed": false,
+      "internalTempId": 9,
+      "id": 106
+    },
+    {
+      "listTemplateId": 7,
+      "text": "4",
+      "startRevealed": false,
+      "internalTempId": 10,
+      "id": 107
+    },
+    {
+      "listTemplateId": 7,
+      "text": "7",
+      "startRevealed": false,
+      "internalTempId": 11,
+      "id": 108
+    },
+    {
+      "listTemplateId": 7,
+      "text": "32",
+      "startRevealed": false,
+      "internalTempId": 12,
+      "id": 109
+    },
+    {
+      "listTemplateId": 7,
+      "text": "13",
+      "startRevealed": false,
+      "internalTempId": 13,
+      "id": 110
+    },
+    {
+      "listTemplateId": 7,
+      "text": "45",
+      "startRevealed": false,
+      "internalTempId": 14,
+      "id": 111
+    },
+    {
+      "listTemplateId": 7,
+      "text": "34",
+      "startRevealed": false,
+      "internalTempId": 15,
+      "id": 112
+    },
+    {
+      "listTemplateId": 7,
+      "text": "21",
+      "startRevealed": true,
+      "internalTempId": 16,
+      "id": 113
+    },
+    {
+      "listTemplateId": 7,
+      "text": "30",
+      "startRevealed": false,
+      "internalTempId": 17,
+      "id": 114
+    },
+    {
+      "listTemplateId": 7,
+      "text": "19",
+      "startRevealed": false,
+      "internalTempId": 18,
+      "id": 115
+    },
+    {
+      "listTemplateId": 7,
+      "text": "17",
+      "startRevealed": false,
+      "internalTempId": 19,
+      "id": 116
+    },
+    {
+      "listTemplateId": 7,
+      "text": "16",
+      "startRevealed": false,
+      "internalTempId": 20,
+      "id": 117
+    },
+    {
+      "listTemplateId": 7,
+      "text": "15",
+      "startRevealed": false,
+      "internalTempId": 21,
+      "id": 118
+    },
+    {
+      "listTemplateId": 7,
+      "text": "20",
+      "startRevealed": false,
+      "internalTempId": 22,
+      "id": 119
+    },
+    {
+      "listTemplateId": 7,
+      "text": "24",
+      "startRevealed": false,
+      "internalTempId": 23,
+      "id": 120
+    },
+    {
+      "listTemplateId": 7,
+      "text": "1",
+      "startRevealed": true,
+      "internalTempId": 24,
+      "id": 121
+    },
+    {
+      "listTemplateId": 7,
+      "text": "3",
+      "startRevealed": false,
+      "internalTempId": 25,
+      "id": 122
+    },
+    {
+      "listTemplateId": 7,
+      "text": "4",
+      "startRevealed": false,
+      "internalTempId": 26,
+      "id": 123
+    },
+    {
+      "listTemplateId": 7,
+      "text": "22",
+      "startRevealed": false,
+      "internalTempId": 27,
+      "id": 124
+    },
+    {
+      "listTemplateId": 7,
+      "text": "10",
+      "startRevealed": false,
+      "internalTempId": 28,
+      "id": 125
+    },
+    {
+      "listTemplateId": 7,
+      "text": "11",
+      "startRevealed": false,
+      "internalTempId": 29,
+      "id": 126
+    },
+    {
+      "listTemplateId": 7,
+      "text": "12",
+      "startRevealed": false,
+      "internalTempId": 30,
+      "id": 127
+    },
+    {
+      "listTemplateId": 7,
+      "text": "13",
+      "startRevealed": false,
+      "internalTempId": 31,
+      "id": 128
+    },
+    {
+      "listTemplateId": 7,
+      "text": "14",
+      "startRevealed": false,
+      "internalTempId": 32,
+      "id": 129
+    },
+    {
+      "listTemplateId": 7,
+      "text": "15",
+      "startRevealed": false,
+      "internalTempId": 33,
+      "id": 130
+    },
+    {
+      "listTemplateId": 7,
+      "text": "16",
+      "startRevealed": false,
+      "internalTempId": 34,
+      "id": 131
+    },
+    {
+      "listTemplateId": 7,
+      "text": "17",
+      "startRevealed": false,
+      "internalTempId": 35,
+      "id": 132
+    },
+    {
+      "listTemplateId": 7,
+      "text": "18",
+      "startRevealed": false,
+      "internalTempId": 36,
+      "id": 133
+    },
+    {
+      "listTemplateId": 7,
+      "text": "19",
+      "startRevealed": false,
+      "internalTempId": 37,
+      "id": 134
+    },
+    {
+      "listTemplateId": 7,
+      "text": "20",
+      "startRevealed": false,
+      "internalTempId": 38,
+      "id": 135
+    },
+    {
+      "listTemplateId": 7,
+      "text": "21",
+      "startRevealed": false,
+      "internalTempId": 39,
+      "id": 136
+    },
+    {
+      "listTemplateId": 7,
+      "text": "25",
+      "startRevealed": false,
+      "internalTempId": 40,
+      "id": 137
+    },
+    {
+      "listTemplateId": 7,
+      "text": "41",
+      "startRevealed": false,
+      "internalTempId": 41,
+      "id": 138
+    },
+    {
+      "listTemplateId": 7,
+      "text": "23",
+      "startRevealed": false,
+      "internalTempId": 42,
+      "id": 139
+    },
+    {
+      "listTemplateId": 7,
+      "text": "31",
+      "startRevealed": false,
+      "internalTempId": 43,
+      "id": 140
+    },
+    {
+      "listTemplateId": 7,
+      "text": "19",
+      "startRevealed": false,
+      "internalTempId": 44,
+      "id": 141
+    },
+    {
+      "listTemplateId": 7,
+      "text": "17",
+      "startRevealed": false,
+      "internalTempId": 45,
+      "id": 142
+    },
+    {
+      "listTemplateId": 7,
+      "text": "16",
+      "startRevealed": false,
+      "internalTempId": 46,
+      "id": 143
+    },
+    {
+      "listTemplateId": 7,
+      "text": "15",
+      "startRevealed": false,
+      "internalTempId": 47,
+      "id": 144
+    },
+    {
+      "listTemplateId": 7,
+      "text": "23",
+      "startRevealed": false,
+      "internalTempId": 48,
+      "id": 145
+    },
+    {
+      "listTemplateId": 7,
+      "text": "16",
+      "startRevealed": false,
+      "internalTempId": 49,
+      "id": 146
+    },
+    {
+      "listTemplateId": 8,
+      "text": "Coo",
+      "startRevealed": false,
+      "internalTempId": 1,
+      "id": 148
+    },
+    {
+      "listTemplateId": 8,
+      "text": "Carrot",
+      "startRevealed": false,
+      "internalTempId": 3,
+      "id": 149
+    },
+    {
+      "listTemplateId": 8,
+      "text": "Calipers",
+      "startRevealed": false,
+      "internalTempId": 4,
+      "id": 150
+    },
+    {
+      "listTemplateId": 8,
+      "text": "Continue",
+      "startRevealed": false,
+      "internalTempId": 2,
+      "id": 151
+    },
+    {
+      "listTemplateId": 8,
+      "text": "Continaer",
+      "startRevealed": false,
+      "internalTempId": 5,
+      "id": 152
+    },
+    {
+      "listTemplateId": 8,
+      "text": "Cantankerous",
+      "startRevealed": false,
+      "internalTempId": 6,
+      "id": 153
+    },
+    {
+      "listTemplateId": 8,
+      "text": "Caribou",
+      "startRevealed": true,
+      "internalTempId": 7,
+      "id": 154
+    },
+    {
+      "listTemplateId": 8,
+      "text": "Cantelope",
+      "startRevealed": false,
+      "internalTempId": 8,
+      "id": 155
+    },
+    {
+      "listTemplateId": 8,
+      "text": "Can",
+      "startRevealed": false,
+      "internalTempId": 9,
+      "id": 156
+    },
+    {
+      "listTemplateId": 8,
+      "text": "Cathiter",
+      "startRevealed": false,
+      "internalTempId": 10,
+      "id": 157
+    },
+    {
+      "listTemplateId": 8,
+      "text": "Cat",
+      "startRevealed": false,
+      "internalTempId": 11,
+      "id": 158
+    },
+    {
+      "listTemplateId": 8,
+      "text": "Cut",
+      "startRevealed": false,
+      "internalTempId": 12,
+      "id": 159
+    },
+    {
+      "listTemplateId": 9,
+      "text": "React  Bugs",
+      "startRevealed": false,
+      "internalTempId": 1,
+      "id": 160
+    },
+    {
+      "listTemplateId": 9,
+      "text": "Spilled Milk",
+      "startRevealed": true,
+      "internalTempId": 2,
+      "id": 161
+    },
+    {
+      "listTemplateId": 9,
+      "text": "World War 1",
+      "startRevealed": false,
+      "internalTempId": 3,
+      "id": 162
+    },
+    {
+      "listTemplateId": 9,
+      "text": "Jury",
+      "startRevealed": false,
+      "internalTempId": 4,
+      "id": 163
+    },
+    {
+      "listTemplateId": 9,
+      "text": "Socks missing",
+      "startRevealed": false,
+      "internalTempId": 5,
+      "id": 164
+    },
+    {
+      "listTemplateId": 9,
+      "text": "Failed test",
+      "startRevealed": false,
+      "internalTempId": 6,
+      "id": 165
+    },
+    {
+      "listTemplateId": 9,
+      "text": "Doordash delivered to wrong address",
+      "startRevealed": false,
+      "internalTempId": 7,
+      "id": 166
+    },
+    {
+      "listTemplateId": 9,
+      "text": "Peanut allergy",
+      "startRevealed": false,
+      "internalTempId": 8,
+      "id": 167
+    },
+    {
+      "listTemplateId": 9,
+      "text": "Data tracking",
+      "startRevealed": false,
+      "internalTempId": 9,
+      "id": 168
+    },
+    {
+      "listTemplateId": 9,
+      "text": "Viking raid on Lindisfarne",
+      "startRevealed": false,
+      "internalTempId": 10,
+      "id": 169
+    },
+    {
+      "listTemplateId": 9,
+      "text": "Food's Cold",
+      "startRevealed": false,
+      "internalTempId": 11,
+      "id": 170
+    },
+    {
+      "listTemplateId": 9,
+      "text": "Vehicle maintenance",
+      "startRevealed": false,
+      "internalTempId": 12,
+      "id": 171
+    },
+    {
+      "listTemplateId": 3,
+      "text": "Play D&D",
+      "startRevealed": false,
+      "internalTempId": 7,
+      "id": 172
+    },
+    {
+      "listTemplateId": 3,
+      "text": "Believe in yourself",
+      "startRevealed": false,
+      "internalTempId": 8,
+      "id": 173
+    },
+    {
+      "listTemplateId": 3,
+      "text": "Utilize the Heart of the Cards",
+      "startRevealed": false,
+      "internalTempId": 9,
+      "id": 174
+    },
+    {
+      "listTemplateId": 3,
+      "text": "Talk with your animals",
+      "startRevealed": false,
+      "internalTempId": 10,
+      "id": 175
+    },
+    {
+      "listTemplateId": 3,
+      "text": "Pretend to be an animal",
+      "startRevealed": false,
+      "internalTempId": 11,
+      "id": 176
+    },
+    {
+      "listTemplateId": 3,
+      "text": "See through another's POV",
+      "startRevealed": false,
+      "internalTempId": 12,
+      "id": 177
+    },
+    {
+      "listTemplateId": 10,
+      "text": "Bow before his glory",
+      "startRevealed": true,
+      "internalTempId": 1,
+      "id": 178
+    },
+    {
+      "listTemplateId": 10,
+      "text": "Kiss your poster of him",
+      "startRevealed": false,
+      "internalTempId": 2,
+      "id": 179
+    },
+    {
+      "listTemplateId": 10,
+      "text": "Praise joe",
+      "startRevealed": false,
+      "internalTempId": 3,
+      "id": 180
+    },
+    {
+      "listTemplateId": 10,
+      "text": "Sing his name on the town square",
+      "startRevealed": false,
+      "internalTempId": 4,
+      "id": 181
+    },
+    {
+      "listTemplateId": 10,
+      "text": "Chant his name",
+      "startRevealed": false,
+      "internalTempId": 5,
+      "id": 182
+    },
+    {
+      "listTemplateId": 10,
+      "text": "Say hello to him",
+      "startRevealed": false,
+      "internalTempId": 6,
+      "id": 183
+    }
+  ],
+  "boardSquares": [
+    {
+      "myTemplateId": 3,
+      "activeListId": 2,
+      "completed": false,
+      "revealed": false,
+      "xPos": 1,
+      "yPos": 1,
+      "text": "Eat imaginebars",
+      "id": 21
+    },
+    {
+      "myTemplateId": 3,
+      "activeListId": 2,
+      "completed": false,
+      "revealed": true,
+      "xPos": 2,
+      "yPos": 1,
+      "text": "Read a book",
+      "id": 22
+    },
+    {
+      "myTemplateId": 3,
+      "activeListId": 2,
+      "completed": false,
+      "revealed": false,
+      "xPos": 1,
+      "yPos": 2,
+      "text": "It's Hopeless",
+      "id": 23
+    },
+    {
+      "myTemplateId": 3,
+      "activeListId": 2,
+      "completed": false,
+      "revealed": false,
+      "xPos": 2,
+      "yPos": 2,
+      "text": "Pretend to be a Pirate",
+      "id": 24
+    },
+    {
+      "myTemplateId": 3,
+      "activeListId": 2,
+      "completed": false,
+      "revealed": false,
+      "xPos": 1,
+      "yPos": 3,
+      "text": "Renaming Pet Journal",
+      "id": 25
+    },
+    {
+      "myTemplateId": 3,
+      "activeListId": 2,
+      "completed": false,
+      "revealed": false,
+      "xPos": 2,
+      "yPos": 3,
+      "text": "Create an imaginary backstory",
+      "id": 26
+    },
+    {
+      "myTemplateId": 4,
+      "activeListId": 4,
+      "completed": false,
+      "revealed": true,
+      "xPos": 1,
+      "yPos": 1,
+      "text": "tuba",
+      "id": 77
+    },
+    {
+      "myTemplateId": 4,
+      "activeListId": 4,
+      "completed": true,
+      "revealed": true,
+      "xPos": 2,
+      "yPos": 1,
+      "text": "snare dru",
+      "id": 78
+    },
+    {
+      "myTemplateId": 4,
+      "activeListId": 4,
+      "completed": true,
+      "revealed": true,
+      "xPos": 3,
+      "yPos": 1,
+      "text": "clarinet",
+      "id": 79
+    },
+    {
+      "myTemplateId": 4,
+      "activeListId": 4,
+      "completed": true,
+      "revealed": true,
+      "xPos": 4,
+      "yPos": 1,
+      "text": "Recorder",
+      "id": 80
+    },
+    {
+      "myTemplateId": 4,
+      "activeListId": 4,
+      "completed": false,
+      "revealed": true,
+      "xPos": 5,
+      "yPos": 1,
+      "text": "trombone",
+      "id": 81
+    },
+    {
+      "myTemplateId": 4,
+      "activeListId": 4,
+      "completed": false,
+      "revealed": true,
+      "xPos": 1,
+      "yPos": 2,
+      "text": "flute",
+      "id": 82
+    },
+    {
+      "myTemplateId": 4,
+      "activeListId": 4,
+      "completed": true,
+      "revealed": true,
+      "xPos": 2,
+      "yPos": 2,
+      "text": "Kazoo",
+      "id": 83
+    },
+    {
+      "myTemplateId": 4,
+      "activeListId": 4,
+      "completed": false,
+      "revealed": true,
+      "xPos": 3,
+      "yPos": 2,
+      "text": "cell",
+      "id": 84
+    },
+    {
+      "myTemplateId": 4,
+      "activeListId": 4,
+      "completed": true,
+      "revealed": true,
+      "xPos": 4,
+      "yPos": 2,
+      "text": "Viola",
+      "id": 85
+    },
+    {
+      "myTemplateId": 4,
+      "activeListId": 4,
+      "completed": false,
+      "revealed": true,
+      "xPos": 5,
+      "yPos": 2,
+      "text": "xylophone",
+      "id": 86
+    },
+    {
+      "myTemplateId": 4,
+      "activeListId": 4,
+      "completed": false,
+      "revealed": true,
+      "xPos": 1,
+      "yPos": 3,
+      "text": "horn",
+      "id": 87
+    },
+    {
+      "myTemplateId": 4,
+      "activeListId": 4,
+      "completed": false,
+      "revealed": true,
+      "xPos": 2,
+      "yPos": 3,
+      "text": "Guitar",
+      "id": 88
+    },
+    {
+      "myTemplateId": 4,
+      "activeListId": 4,
+      "completed": true,
+      "revealed": true,
+      "xPos": 3,
+      "yPos": 3,
+      "text": "baritone",
+      "id": 89
+    },
+    {
+      "myTemplateId": 4,
+      "activeListId": 4,
+      "completed": true,
+      "revealed": true,
+      "xPos": 4,
+      "yPos": 3,
+      "text": "saxophone",
+      "id": 90
+    },
+    {
+      "myTemplateId": 4,
+      "activeListId": 4,
+      "completed": true,
+      "revealed": true,
+      "xPos": 5,
+      "yPos": 3,
+      "text": "Tabla",
+      "id": 91
+    },
+    {
+      "myTemplateId": 4,
+      "activeListId": 4,
+      "completed": false,
+      "revealed": false,
+      "xPos": 1,
+      "yPos": 4,
+      "text": "violin",
+      "id": 92
+    },
+    {
+      "myTemplateId": 4,
+      "activeListId": 4,
+      "completed": false,
+      "revealed": false,
+      "xPos": 2,
+      "yPos": 4,
+      "text": "trumpet",
+      "id": 93
+    },
+    {
+      "myTemplateId": 4,
+      "activeListId": 4,
+      "completed": false,
+      "revealed": true,
+      "xPos": 3,
+      "yPos": 4,
+      "text": "bass",
+      "id": 94
+    },
+    {
+      "myTemplateId": 4,
+      "activeListId": 4,
+      "completed": false,
+      "revealed": true,
+      "xPos": 4,
+      "yPos": 4,
+      "text": "bass clarinet",
+      "id": 95
+    },
+    {
+      "myTemplateId": 4,
+      "activeListId": 4,
+      "completed": true,
+      "revealed": true,
+      "xPos": 5,
+      "yPos": 4,
+      "text": "piano",
+      "id": 96
+    },
+    {
+      "myTemplateId": 9,
+      "activeListId": 7,
+      "completed": false,
+      "revealed": true,
+      "xPos": 1,
+      "yPos": 1,
+      "text": "World War 1",
+      "id": 195
+    },
+    {
+      "myTemplateId": 9,
+      "activeListId": 7,
+      "completed": true,
+      "revealed": true,
+      "xPos": 2,
+      "yPos": 1,
+      "text": "Peanut allergy",
+      "id": 196
+    },
+    {
+      "myTemplateId": 9,
+      "activeListId": 7,
+      "completed": false,
+      "revealed": true,
+      "xPos": 3,
+      "yPos": 1,
+      "text": "Socks missing",
+      "id": 197
+    },
+    {
+      "myTemplateId": 9,
+      "activeListId": 7,
+      "completed": false,
+      "revealed": true,
+      "xPos": 1,
+      "yPos": 2,
+      "text": "Viking raid on Lindisfarne",
+      "id": 198
+    },
+    {
+      "myTemplateId": 9,
+      "activeListId": 7,
+      "completed": true,
+      "revealed": true,
+      "xPos": 2,
+      "yPos": 2,
+      "text": "Vehicle maintenance",
+      "id": 199
+    },
+    {
+      "myTemplateId": 9,
+      "activeListId": 7,
+      "completed": false,
+      "revealed": true,
+      "xPos": 3,
+      "yPos": 2,
+      "text": "React  Bugs",
+      "id": 200
+    },
+    {
+      "myTemplateId": 9,
+      "activeListId": 7,
+      "completed": false,
+      "revealed": true,
+      "xPos": 1,
+      "yPos": 3,
+      "text": "Food's Cold",
+      "id": 201
+    },
+    {
+      "myTemplateId": 9,
+      "activeListId": 7,
+      "completed": true,
+      "revealed": true,
+      "xPos": 2,
+      "yPos": 3,
+      "text": "Failed test",
+      "id": 202
+    },
+    {
+      "myTemplateId": 9,
+      "activeListId": 7,
+      "completed": false,
+      "revealed": true,
+      "xPos": 3,
+      "yPos": 3,
+      "text": "Doordash delivered to wrong address",
+      "id": 203
+    },
+    {
+      "myTemplateId": 9,
+      "activeListId": 7,
+      "completed": true,
+      "revealed": true,
+      "xPos": 1,
+      "yPos": 4,
+      "text": "Spilled Milk",
+      "id": 204
+    },
+    {
+      "myTemplateId": 9,
+      "activeListId": 7,
+      "completed": true,
+      "revealed": true,
+      "xPos": 2,
+      "yPos": 4,
+      "text": "Jury",
+      "id": 205
+    },
+    {
+      "myTemplateId": 9,
+      "activeListId": 7,
+      "completed": true,
+      "revealed": true,
+      "xPos": 3,
+      "yPos": 4,
+      "text": "Data tracking",
+      "id": 206
+    }
+  ],
+  "activeLists": [
+    {
+      "userId": 1,
+      "myTemplateId": 3,
+      "name": "Sora Imagination",
+      "description": "Steps to give Sora an imagination.",
+      "revealStart": "",
+      "gridWidth": 2,
+      "gridHeight": 3,
+      "creatorId": 1,
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "myTemplateId": 4,
+      "name": "Band Instruments To Try Out",
+      "description": "Try out all these awesome instruments wooooo",
+      "revealStart": "",
+      "gridWidth": 5,
+      "gridHeight": 4,
+      "creatorId": 1,
+      "id": 4
+    },
+    {
+      "userId": 1,
+      "myTemplateId": 9,
+      "name": "Things To Blame Me For",
+      "description": "Itemized list of things I can be blamed for",
+      "revealStart": "",
+      "gridWidth": 3,
+      "gridHeight": 4,
+      "creatorId": 4,
+      "id": 7
+    }
+  ],
+  "revealedPositions": []
+}
